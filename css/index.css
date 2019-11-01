@@ -81,6 +81,7 @@ p {
 }
 
 .top-content .text-container {
+    margin: 2% 0;
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -103,8 +104,8 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
     height: 100px;
+    width: 100px;
     background: black;
     margin: 20px 2.5%;
     color: white;
@@ -167,12 +168,12 @@ header{
 img.logo{
     width: 157px;
 }
-nav{
+header nav{
     width: 80%;
     display: flex;
     justify-content: space-around;
 }
-nav a{
+header nav a{
     margin-top: 5%;
     text-decoration: none;
     color: black;
