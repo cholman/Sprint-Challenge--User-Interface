@@ -112,6 +112,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+.middle-content .boxes .box.box1{
+    background: #008080;
+}
+.middle-content .boxes .box.box2{
+    background: #FFD700;
+}
+.middle-content .boxes .box.box3{
+    background: #5F9EA0;
+}
+.middle-content .boxes .box.box4{
+    background: #FF7F50;
+}
+.middle-content .boxes .box.box5{
+    background: #DC143C;
+}
+.middle-content .boxes .box.box6{
+    background: #228B22;
+}
+.middle-content .boxes .box.box7{
+    background: #9932CC;
+}
+.middle-content .boxes .box.box8{
+    background: #FF69B4;
+}
+.middle-content .boxes .box.box9{
+    background: #4B0082;
+}
+.middle-content .boxes .box.box10{
+    background: #1E90FF;
 }
 
 .bottom-content {
