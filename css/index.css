@@ -112,7 +112,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    /*********************box colors*********************/
 }
 .middle-content .boxes .box.box1{
     background: #008080;
@@ -218,7 +218,7 @@ section.about{
     margin: 5%;
 }
 
-/****************boxes section**************/
+/****************aboutboxes section**************/
 
 section.aboutboxes{
     border-top: dashed 1px black;
@@ -251,6 +251,6 @@ button{
 }
 
 /*************** section work ************/
-section.work{
+section.aboutwork{
     margin: 5%;
 }
