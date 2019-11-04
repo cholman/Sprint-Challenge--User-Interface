@@ -67,7 +67,8 @@ p {
 }
 
 .container {
-    width: 800px;
+    max-width: 800px;
+    min-width: 600px;
     margin: 0 auto;
 }
 
@@ -80,6 +81,7 @@ p {
 }
 
 .top-content .text-container {
+    margin: 2% 0;
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -102,14 +104,45 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
     height: 100px;
+    width: 100px;
     background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    /*********************box colors*********************/
+}
+.middle-content .boxes .box.box1{
+    background: #008080;
+}
+.middle-content .boxes .box.box2{
+    background: #FFD700;
+}
+.middle-content .boxes .box.box3{
+    background: #5F9EA0;
+}
+.middle-content .boxes .box.box4{
+    background: #FF7F50;
+}
+.middle-content .boxes .box.box5{
+    background: #DC143C;
+}
+.middle-content .boxes .box.box6{
+    background: #228B22;
+}
+.middle-content .boxes .box.box7{
+    background: #9932CC;
+}
+.middle-content .boxes .box.box8{
+    background: #FF69B4;
+}
+.middle-content .boxes .box.box9{
+    background: #4B0082;
+}
+.middle-content .boxes .box.box10{
+    background: #1E90FF;
 }
 
 .bottom-content {
@@ -143,4 +176,121 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*********my start**********/
+
+div.container{
+    margin: 0 5%;
+}
+p{
+    font-size: 14px;
+}
+h3{
+    font-size: 17px;
+}
+/****************header*****************/
+header{
+   display: flex;
+   align-items: center;
+   margin: 4% 0;
+   margin-bottom: 6%;
+}
+img.logo{
+    width: 157px;
+}
+header nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+header nav a{
+    margin-top: 5%;
+    text-decoration: none;
+    color: black;
+}
+/****************jumbo img*****************/
+img.jumbo{
+    width: 100%;
+}
+/******************about*********************/
+section.about{
+    margin: 5%;
+}
+
+/****************aboutboxes section**************/
+
+section.aboutboxes{
+    border-top: dashed 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2%;
+}
+div.aboutbox{
+    width: 48%;
+    padding: 2% 0;
+    margin: 3% 0;
+    border-bottom: 1px dashed black;
+}
+
+.aboutbox img{
+    width: 100%;
+}
+button{
+    background: white;
+    border:1.5px solid black;
+    border-radius: 8px;
+    padding: 2% 5%;
+}
+.aboutbox p{
+    margin: 5% 0;
+}
+.aboutbox h3{
+    margin-top: 5%;
+}
+
+/*************** section work ************/
+section.aboutwork{
+    margin: 5%;
+}
+/*************** contact page *************/
+section.contact{
+    height: 60vh;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.form{
+    
+    display: flex;
+    height: 20px;
+    width: 100%;
+    margin: 5% 0;
+}
+
+
+input.comment{
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin: 5% 0;
+    
+}
+textarea{
+    width: 100%;
+}
+input.text{
+    margin: 0 1%;
+}
+input.comment{
+    
+margin-top; 5%;
+}
+input.button{
+    background: white;
+    border:1.5px solid black;
+    border-radius: 8px;
+    padding: 1% 5%;
 }
